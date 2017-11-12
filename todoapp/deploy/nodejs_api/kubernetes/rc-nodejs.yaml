@@ -1,0 +1,24 @@
+apiVersion: v1
+kind: ReplicationController
+metadata:
+  name: todoapi-controller
+  labels:
+    name: todoapi
+spec:
+  replicas: 1
+  template:
+    metadata:
+      labels:
+        name: todoapi
+    spec:
+      containers:
+      - name: todoapi
+        image: do276/todoapi_nodejs
+        env:
+        - name: MYSQL_ENV_MYSQL_DATABASE
+          value: items
+        - name: MYSQL_ENV_MYSQL_USER
+          value: user1
+        - name: MYSQL_ENV_MYSQL_PASSWORD
+          value: mypa55
+

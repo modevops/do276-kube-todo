@@ -1,0 +1,6 @@
+Flask==0.10.1
+Jinja2==2.8
+pip==7.1.2
+itsdangerous==0.24
+Werkzeug==0.11.2
+setuptools==18.2

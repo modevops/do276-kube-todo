@@ -1,0 +1,16 @@
+apiVersion: v1
+kind: ReplicationController
+metadata:
+  name: ui-controller
+  labels:
+    name: ui
+spec:
+  replicas: 2
+  template:
+    metadata:
+      labels:
+        name: ui
+    spec:
+      containers:
+      - name: ui
+        image: do276/todo_frontend

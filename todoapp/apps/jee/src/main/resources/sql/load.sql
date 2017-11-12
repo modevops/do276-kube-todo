@@ -1,0 +1,24 @@
+INSERT INTO `Item` (`description`,`done`) VALUES ('Pick up newspaper', 0);
+INSERT INTO `Item` (`description`,`done`) VALUES ('Buy groceries', 1);
+INSERT INTO `Item` (`description`,`done`) VALUES ('Read newspaper', 0);
+INSERT INTO `Item` (`description`,`done`) VALUES ('Trash newspaper', 0);
+INSERT INTO `Item` (`description`,`done`) VALUES ('Buy more groceries', 0);
+INSERT INTO `Item` (`description`,`done`) VALUES ('Eat groceries', 0);
+INSERT INTO `Item` (`description`,`done`) VALUES ('Eat more groceries', 0);
+INSERT INTO `Item` (`description`,`done`) VALUES ('Eat even more groceries', 0);
+INSERT INTO `Item` (`description`,`done`) VALUES ('Have a beer', 0);
+INSERT INTO `Item` (`description`,`done`) VALUES ('Start diet', 0);
+INSERT INTO `Item` (`description`,`done`) VALUES ('Workout', 0);
+INSERT INTO `Item` (`description`,`done`) VALUES ('Keep on diet', 0);
+INSERT INTO `Item` (`description`,`done`) VALUES ('Drink no more soda', 0);
+INSERT INTO `Item` (`description`,`done`) VALUES ('Eat salad', 0);
+INSERT INTO `Item` (`description`,`done`) VALUES ('Eat fruit', 0);
+INSERT INTO `Item` (`description`,`done`) VALUES ('Eat low fat meat', 0);
+INSERT INTO `Item` (`description`,`done`) VALUES ('Avoid fast food', 0);
+INSERT INTO `Item` (`description`,`done`) VALUES ('Avoid pizza', 0);
+INSERT INTO `Item` (`description`,`done`) VALUES ('Avoid pasta', 0);
+INSERT INTO `Item` (`description`,`done`) VALUES ('Avoid ice cream', 0);
+INSERT INTO `Item` (`description`,`done`) VALUES ('Eat only whole wheat bread', 0);
+INSERT INTO `Item` (`description`,`done`) VALUES ('Drink low fat milk', 0);
+INSERT INTO `Item` (`description`,`done`) VALUES ('Eat no more candy', 0);
+

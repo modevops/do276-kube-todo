@@ -1,0 +1,17 @@
+eap:
+  image: todopython
+  links:
+    - db:mysql
+  ports:
+    - 8080:8080
+
+db:
+  image: mysql
+  environment:
+    MYSQL_ROOT_PASSWORD: r00tpa55
+    MYSQL_DATABASE: items
+    MYSQL_USER: user1
+    MYSQL_PASSWORD: mypa55
+  volumes:
+    - ./data:/var/lib/mysql
+    - ./initdb:/docker-entrypoint-initdb.d

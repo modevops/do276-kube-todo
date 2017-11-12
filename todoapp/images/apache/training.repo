@@ -1,0 +1,36 @@
+[centos_scl]
+baseurl = http://content.example.com/atomic3.0/x86_64/vagrant
+enabled = true
+gpgcheck = false
+name = CentOS 7.7 Vagrant dependencies
+
+[rhel-7-server-extras-rpms]
+baseurl = http://content.example.com/atomic3.0/x86_64/rhelextras
+enabled = true
+gpgcheck = false
+name = Remote classroom copy of RHEL Extras
+
+[rhel-7-server-optional-rpms]
+baseurl = http://content.example.com/atomic3.0/x86_64/rheloptional
+enabled = true
+gpgcheck = false
+name = Remote classroom copy of Optional RHEL  RPMS
+
+[rhel-7-server-rpms]
+baseurl = http://content.example.com/rhel7.2/x86_64/dvd
+enabled = true
+gpgcheck = false
+name = Remote classroom copy of dvd
+
+[rhel-server-rhscl-7-rpms]
+baseurl = http://content.example.com/atomic3.0/x86_64/rhelscl
+enabled = true
+gpgcheck = false
+name = Remote classroom copy of software collections
+
+[rhel-server-additional-7-rpms]
+baseurl = http://content.example.com/atomic3.0/x86_64/rheladditional
+enabled = true
+gpgcheck = false
+name = Remote classroom copy of additionals packages
+
